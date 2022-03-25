@@ -1,1 +1,57 @@
-// TODO
+.postsContainer {
+    &:not(:last-child) {
+        margin-bottom: 3rem;
+    }
+
+    margin: 0 auto;
+
+    h1 {
+        font-size: 2rem;
+        font-weight: 800;
+        color: var(--gray-50);
+    }
+
+    p {
+        font-size: 1.125rem;
+        margin-top: 0.5rem;
+        font-weight: 400;
+        color: var(--gray-300);
+    }
+}
+
+.postsDataDetails {
+    display: flex;
+    margin-top: 1.5rem;
+}
+
+.iconDate {
+    margin-right: 1.5rem;
+
+    span {
+        color: var(--gray-700);
+        margin-left: 0.5rem;
+    }
+}
+
+.authorData {
+    span {
+        color: var(--gray-700);
+        margin-left: 0.5rem;
+    }
+}
+
+.loadMore {
+    margin: 0 auto;
+
+    button {
+        color: var(--vivid-pink-300);
+        font-weight: 600;
+        font-size: 1.125rem;
+        background: transparent;
+        border: 0;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
